@@ -1,7 +1,17 @@
+/* Adds a new font */
+@font-face {
+    font-family: 'Beckett-Kanzlei';
+    src: url('../font/Beckett-Kanzlei.ttf') format('truetype');
+}
+
 /* Changes the background of the entire site to an image */
 body  {
     background-image: url("../images/background16-9.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+
+section {
+    padding-top: 60px;
 }

@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<?php
+    <?php
     include "includes/header.php";
-?>
+    ?>
     <title>Home!</title>
 </head>
+
 <body>
-<?php
+    <?php
     include "includes/navbar.php"
-?>
-    <p>Hello world!</p>
-<?php
-    include "includes/header.php";
-?>
+    ?>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                <p class="text-center"><span style="font-family: 'Beckett-Kanzlei', 'Times New Roman', serif; font-size: 50px"
+                     class="text-center">Welcome</span><br> to my site.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php
+    include "includes/footer.php";
+    ?>
 </body>
+
 </html>

@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-sm-12">
                 <p class="text-center"><span style="font-family: 'Beckett-Kanzlei', 'Times New Roman', serif; font-size: 50px"
-                     class="text-center">Welcome</span><br> to my site.</p>
+                     class="text-center">Welcome</span><br> to my site of fun, little projects to play with</p>
                 </div>
             </div>
         </div>

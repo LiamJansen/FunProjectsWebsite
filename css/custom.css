@@ -12,6 +12,18 @@ body  {
     background-size: 100% 100%;
 }
 
+/* This is to make sure the opening section isn't hidden be hind the navbar */
 section {
     padding-top: 60px;
+}
+
+/* Centering the back&forward arrows for quotes&images */
+.vertical_center {
+    display:flex;
+    align-items:center;
+}
+
+/* Removing bootstrap padding so that images center better */
+.remove_padding {
+    padding: 0;
 }

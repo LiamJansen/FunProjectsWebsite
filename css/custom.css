@@ -17,12 +17,6 @@ section {
     padding-top: 60px;
 }
 
-/* Centering the back&forward arrows for quotes&images */
-.vertical_center {
-    display:flex;
-    align-items:center;
-}
-
 /* Removing bootstrap padding so that images center better */
 .remove_padding {
     padding: 0;

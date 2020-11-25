@@ -19,4 +19,12 @@ function loadNextImage() {
     // Sends off the request
     xhttp.send();
 }
+
+function loadNextQuote() {
+    repetitiveLoading();
+    // Making a get request to a file on the same server with async true
+    xhttp.open("GET", "ajax-quotes.php", true);
+    // Sends off the request
+    xhttp.send();
+}
 </script>

@@ -47,8 +47,6 @@ include "db/db_connection.php";
             </div>
         </section>
     </div>
-    <script>
-    </script>
     <?php
     include "includes/ajax-script.php";
     include "includes/footer.php";

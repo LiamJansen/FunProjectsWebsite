@@ -4,6 +4,11 @@
     src: url('../font/Beckett-Kanzlei.ttf') format('truetype');
 }
 
+.beckett_kanzlei_font {
+    font-family: 'Beckett-Kanzlei', 'Times New Roman', serif; 
+    font-size: 50px;
+}
+
 /* Changes the background of the entire site to an image */
 body  {
     background-image: url("../images/background16-9.jpg");

@@ -3,7 +3,7 @@
 var xhttp = new XMLHttpRequest();
 
 // Creating function so this code fragment can be re-used easily
-function repetitiveLoading(){
+function repetitive_loading(){
     xhttp.onreadystatechange = function () {
         // Replace element with received data if the request is finished, the response is ready and the status is OK
         if (this.readyState == 4 && this.status == 200) {
@@ -12,16 +12,16 @@ function repetitiveLoading(){
     };
 }
 
-function loadNextImage() {
-    repetitiveLoading();
+function load_next_image() {
+    repetitive_loading();
     // Making a get request to a file on the same server with async true
     xhttp.open("GET", "ajax-pictures.php", true);
     // Sends off the request
     xhttp.send();
 }
 
-function loadNextQuote() {
-    repetitiveLoading();
+function load_next_quote() {
+    repetitive_loading();
     // Making a get request to a file on the same server with async true
     xhttp.open("GET", "ajax-quotes.php", true);
     // Sends off the request

@@ -3,7 +3,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav firstMenNavbar">
+        <ul class="navbar-nav" id="extra_nav_bar_location">
             <li class="nav-item">
                 <a class="nav-link" href="index.php">Home</span></a>
             </li>
